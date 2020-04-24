@@ -1,0 +1,106 @@
+body {
+  margin: 0 auto 0 auto;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #0245a3;
+  margin: 50px auto 50px auto;
+  line-height: normal;
+  font-size: 3.5rem;
+  font-weight: lighter;
+  /* 16px is standard, so 3.5x em, with r signifying no stacking */
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #0245a3;
+  font-weight: lighter;
+  margin: 25px auto 25px auto;
+}
+
+h3 {
+  font-size: 1.25rem;
+  color: #0245a3;
+  font-weight: lighter;
+}
+
+p {
+  color: black;
+  font-size: 1.0rem;
+  font-weight: lighter;
+}
+
+img {
+  width: 25%;
+}
+
+a {
+  color: orange;
+}
+
+hr {
+  border-style: dotted none none;
+  border-top-width: thin;
+  border-width: 5px;
+  border-color: gray;
+  height: 0;
+  width: 5%;
+  margin: 50px auto 50px auto;
+}
+
+.topContainer {
+  background-color: #ffffff;
+  padding-top: 100px;
+}
+
+.middleContainer {
+  background-color: #ffffff;
+}
+
+.bottomContainer {
+  background-color: #ffffff;
+  margin: 0px;
+}
+
+.aboutMeSection {
+  padding-top: 0px;
+  /* padding-bottom: 25px; */
+  margin: 0 auto 0 auto;
+  width: 50%;
+}
+.aboutMeText {
+  font-weight: lighter;
+  line-height: 200%;
+}
+
+.contactMe {
+  margin: 15px auto 15px auto;
+}
+
+.ibImage {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.operatingImage {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.puppyImage {
+  width: 5%;
+  padding-top: 50px;
+  padding-bottom: 25px;
+
+}
+
+.skillRow {
+  width: 50%;
+  margin: 80px auto 80px auto;
+  text-align: left;
+  line-height: 200%;
+}
